@@ -21,20 +21,24 @@ instead!
 -----------------------------------------------------------------------------*/
 const cartForParty = {
   // TODO complete this object
+  chips: 3.99,
+  drinks: 4.29,
+  nuts: 3.12,
+  popcorn: 2.1,
+  pizza: 8.3,
 };
 
-function calculateTotalPrice(/* TODO parameter(s) go here */) {
-  // TODO replace this comment with your code
+function calculateTotalPrice(obj) {
+  let total = [];
+  for (const prop in obj) {
+    total.push(obj[prop]);
+  }
+  total = total.reduce((acc, curr) => {
+    return acc + curr;
+  });
+  return `Total: €${total.toFixed(2)}`;
 }
-
-// this is one example, you will need to write a different object
-calculateTotalPrice({
-  apples: 12,
-  bananas: 0.12,
-  cranberries: 7.3,
-  durian: 73,
-  elderberry: 10,
-}); // -> "Total: €102.42"
+calculateTotalPrice(cartForParty);
 
 // ! Do not change or remove the code below
 module.exports = {
