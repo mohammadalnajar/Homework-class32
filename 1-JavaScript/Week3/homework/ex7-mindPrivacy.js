@@ -25,9 +25,14 @@ const employeeRecords = [
     salary: 60000,
   },
 ];
+function filterPrivateData(arr) {
+  const newArray = arr.map((person) => {
+    const { name, occupation, email } = person;
+    const newObj = { name: name, occupation: occupation, email: email };
+    return newObj;
+  });
 
-function filterPrivateData(/* parameter(s) go here */) {
-  // TODO complete this function
+  return newArray;
 }
 
 console.log(filterPrivateData(employeeRecords));

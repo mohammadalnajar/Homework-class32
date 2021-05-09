@@ -71,14 +71,20 @@ function selectRandomly(arr) {
 
 function tellFortune(kids, partnerName, location, job) {
   const x = Math.floor(Math.random() * 5);
+  let arr = [kids, partnerName, location, job];
   kids = kids.length - x;
-  partnerName = selectRandomly(partnerName);
-  location = selectRandomly(location);
-  job = selectRandomly(job);
-  return `You will be a ${job} in ${location}, 
-  married to ${partnerName} with ${kids} kids.`;
-}
+  //* I made this to pick a random number of kids and it give me an error with the test, but if I make it picking a random NAME instead of a number this error will be gone!*/
+  const kidsUnit = kids === 1 ? 'kid' : 'kids';
+  arr = arr.map((argument) => {
+    argument = selectRandomly(argument);
+    return argument;
+  });
 
+  return `You will be a ${arr[3]} in ${arr[2]}, married to ${arr[1]} with ${kids} ${kidsUnit}.`;
+}
+//   I still get an error with test that tellFortune should call function
+//   'selectRandomly' for each of its arguments, although I made a loop above
+//   using the map() method on the arguments;
 console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
 console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
 console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
