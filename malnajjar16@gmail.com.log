@@ -229,3 +229,10 @@
 2021-05-09 10:49:50 error: *** Spell Checker Report ***
 
 
+2021-05-09 11:35:25 info: -----------------------------------------
+2021-05-09 11:35:25 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-09 11:35:25 info: -----------------------------------------
+2021-05-09 11:35:44 info: All unit tests passed.
+2021-05-09 11:35:48 error: *** Spell Checker Report ***
+
+

@@ -29,16 +29,15 @@ const cartForParty = {
 };
 
 function calculateTotalPrice(obj) {
-  let total = [];
-  for (const prop in obj) {
-    total.push(obj[prop]);
-  }
+  let total = Object.entries(obj).map((item) => {
+    return item[1];
+  });
   total = total.reduce((acc, curr) => {
     return acc + curr;
   });
   return `Total: €${total.toFixed(2)}`;
 }
-calculateTotalPrice(cartForParty);
+console.log(calculateTotalPrice(cartForParty));
 
 // ! Do not change or remove the code below
 module.exports = {
