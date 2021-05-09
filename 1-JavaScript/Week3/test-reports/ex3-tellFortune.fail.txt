@@ -1,0 +1,8 @@
+*** Unit Test Error Report ***
+
+- tellFortune should call function `selectRandomly` for each of its arguments
+- tellFortune should tell the fortune by randomly selecting array values
+  fortune-telling is not randomly composed
+
+*** Spell Checker Report ***
+

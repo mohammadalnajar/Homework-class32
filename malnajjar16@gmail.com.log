@@ -1,0 +1,231 @@
+2021-05-08 11:02:53 info: --------------------------------------------
+2021-05-08 11:02:53 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-05-08 11:02:53 info: --------------------------------------------
+2021-05-08 11:03:03 info: All unit tests passed.
+2021-05-08 11:03:07 error: *** Spell Checker Report ***
+
+
+2021-05-08 11:09:27 info: -------------------------------------------------
+2021-05-08 11:09:27 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-05-08 11:09:27 info: -------------------------------------------------
+2021-05-08 11:09:34 info: All unit tests passed.
+2021-05-08 11:09:38 error: *** Spell Checker Report ***
+
+
+2021-05-08 11:18:37 info: -----------------------------------------
+2021-05-08 11:18:37 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-08 11:18:37 info: -----------------------------------------
+2021-05-08 11:18:45 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+
+2021-05-08 11:18:49 error: *** Spell Checker Report ***
+
+
+2021-05-08 11:19:17 info: Disclaimer turned off
+2021-05-08 11:19:25 info: -----------------------------------------
+2021-05-08 11:19:25 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-08 11:19:25 info: -----------------------------------------
+2021-05-08 11:19:32 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €21.80
+  Received: 22
+
+2021-05-08 11:19:36 error: *** Spell Checker Report ***
+
+
+2021-05-08 11:25:06 info: -----------------------------------------
+2021-05-08 11:25:06 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-08 11:25:06 info: -----------------------------------------
+2021-05-08 11:25:12 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €21.80
+  Received: 21.80
+
+2021-05-08 11:25:16 error: *** Spell Checker Report ***
+
+
+2021-05-08 11:28:42 info: -----------------------------------------
+2021-05-08 11:28:42 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-08 11:28:42 info: -----------------------------------------
+2021-05-08 11:28:49 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €21.80
+  Received: €21.80
+
+2021-05-08 11:28:54 error: *** Spell Checker Report ***
+
+
+2021-05-08 11:37:38 info: -----------------------------------------
+2021-05-08 11:37:38 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-08 11:37:38 info: -----------------------------------------
+2021-05-08 11:37:44 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €21.80
+  Received: €21.80
+
+2021-05-08 11:37:47 error: *** Spell Checker Report ***
+
+
+2021-05-08 11:39:10 info: -----------------------------------------
+2021-05-08 11:39:10 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-08 11:39:10 info: -----------------------------------------
+2021-05-08 11:39:17 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €21.80
+  Received: €21.80
+
+2021-05-08 11:39:21 error: *** Spell Checker Report ***
+
+
+2021-05-08 11:40:37 info: -----------------------------------------
+2021-05-08 11:40:37 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-08 11:40:37 info: -----------------------------------------
+2021-05-08 11:40:44 info: All unit tests passed.
+2021-05-08 11:40:49 error: *** Spell Checker Report ***
+
+
+2021-05-08 01:31:43 info: -------------------------------------------
+2021-05-08 01:31:43 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-05-08 01:31:43 info: -------------------------------------------
+2021-05-08 01:31:52 info: All unit tests passed.
+2021-05-08 01:31:56 error: *** Spell Checker Report ***
+
+
+2021-05-08 02:14:46 info: ----------------------------------------------
+2021-05-08 02:14:46 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-05-08 02:14:46 info: ----------------------------------------------
+2021-05-08 02:14:54 info: All unit tests passed.
+2021-05-08 02:14:59 error: *** Spell Checker Report ***
+
+
+2021-05-08 02:15:12 info: ----------------------------------------
+2021-05-08 02:15:12 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-05-08 02:15:12 info: ----------------------------------------
+2021-05-08 02:15:19 info: All unit tests passed.
+2021-05-08 02:15:23 error: *** Spell Checker Report ***
+
+
+2021-05-08 02:15:46 info: -------------------------------------------
+2021-05-08 02:15:46 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-08 02:15:46 info: -------------------------------------------
+2021-05-08 02:15:54 error: *** Unit Test Error Report ***
+
+- tellFortune should call function `selectRandomly` for each of its arguments
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a Architect in Amsterdam, married to Soha with Sami kids.
+  Received: You will be a Architect in Amsterdam, 
+  married to Soha with 5 kids.
+
+2021-05-08 02:15:59 error: *** Spell Checker Report ***
+
+
+2021-05-08 02:39:50 info: -------------------------------------------
+2021-05-08 02:39:50 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-08 02:39:50 info: -------------------------------------------
+2021-05-08 02:40:00 error: *** Unit Test Error Report ***
+
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a Architect in Amsterdam, married to Soha with Sami kids.
+  Received: You will be a Architect in Amsterdam, 
+  married to Soha with Sami kids.
+
+2021-05-08 02:40:04 error: *** Spell Checker Report ***
+
+
+2021-05-08 02:49:20 info: -------------------------------------------
+2021-05-08 02:49:20 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-08 02:49:20 info: -------------------------------------------
+2021-05-08 02:49:28 error: *** Unit Test Error Report ***
+
+- tellFortune should call function `selectRandomly` for each of its arguments
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a Architect in Amsterdam, married to Soha with Sami kids.
+  Received: You will be a Architect in Amsterdam, 
+  married to Soha with Sami kids.
+
+2021-05-08 02:49:32 error: *** Spell Checker Report ***
+
+
+2021-05-08 03:32:54 info: -------------------------------------------
+2021-05-08 03:32:54 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-08 03:32:54 info: -------------------------------------------
+2021-05-08 03:33:02 error: *** Unit Test Error Report ***
+
+- tellFortune should call function `selectRandomly` for each of its arguments
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a Architect in Amsterdam, married to Soha with Sami kids.
+  Received: You will be a Architect in Amsterdam, 
+  married to Soha with 5 kids.
+
+2021-05-08 03:33:06 error: *** Spell Checker Report ***
+
+
+2021-05-08 08:15:08 info: -------------------------------------------
+2021-05-08 08:15:08 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-08 08:15:08 info: -------------------------------------------
+2021-05-08 08:15:17 error: *** Unit Test Error Report ***
+
+- tellFortune should call function `selectRandomly` for each of its arguments
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a Architect in Amsterdam, married to Soha with Sami kids.
+  Received: You will be a Architect in Amsterdam, 
+  married to Soha with Sami kids.
+
+2021-05-08 08:15:21 error: *** Spell Checker Report ***
+
+
+2021-05-08 08:16:13 info: -------------------------------------------
+2021-05-08 08:16:13 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-08 08:16:13 info: -------------------------------------------
+2021-05-08 08:16:20 error: *** Unit Test Error Report ***
+
+- tellFortune should call function `selectRandomly` for each of its arguments
+
+2021-05-08 08:16:24 error: *** Spell Checker Report ***
+
+
+2021-05-08 08:27:24 info: -------------------------------------------
+2021-05-08 08:27:24 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-08 08:27:24 info: -------------------------------------------
+2021-05-08 08:27:34 error: *** Unit Test Error Report ***
+
+- tellFortune should call function `selectRandomly` for each of its arguments
+
+2021-05-08 08:27:38 error: *** Spell Checker Report ***
+
+
+2021-05-09 10:15:17 info: -------------------------------------------
+2021-05-09 10:15:17 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-09 10:15:17 info: -------------------------------------------
+2021-05-09 10:15:27 error: *** Unit Test Error Report ***
+
+- tellFortune should call function `selectRandomly` for each of its arguments
+
+2021-05-09 10:15:31 error: *** Spell Checker Report ***
+
+
+2021-05-09 10:37:17 info: -------------------------------------------
+2021-05-09 10:37:17 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-09 10:37:17 info: -------------------------------------------
+2021-05-09 10:37:25 error: *** Unit Test Error Report ***
+
+- tellFortune should call function `selectRandomly` for each of its arguments
+- tellFortune should tell the fortune by randomly selecting array values
+  fortune-telling is not randomly composed
+
+2021-05-09 10:37:28 error: *** Spell Checker Report ***
+
+
+2021-05-09 10:49:38 info: -----------------------------------------
+2021-05-09 10:49:38 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-09 10:49:38 info: -----------------------------------------
+2021-05-09 10:49:47 info: All unit tests passed.
+2021-05-09 10:49:50 error: *** Spell Checker Report ***
+
+
