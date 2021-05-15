@@ -1,0 +1,73 @@
+2021-05-14 02:10:22 info: -------------------------------------------------
+2021-05-14 02:10:22 info: >>> Running Unit Test `ex1-doubleEvenNumbers` <<<
+2021-05-14 02:10:22 info: -------------------------------------------------
+2021-05-14 02:10:33 info: All unit tests passed.
+2021-05-14 02:10:36 error: *** Spell Checker Report ***
+
+
+2021-05-14 02:35:01 info: --------------------------------------------
+2021-05-14 02:35:01 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-05-14 02:35:01 info: --------------------------------------------
+2021-05-14 02:35:09 error: *** Unit Test Error Report ***
+
+- mondaysWorth should compute the earnings as a formatted Euro amount
+  Expected: €187.50
+  Received: € 187,50
+
+2021-05-14 02:35:12 error: *** Spell Checker Report ***
+
+
+2021-05-14 02:39:27 info: --------------------------------------------
+2021-05-14 02:39:27 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-05-14 02:39:27 info: --------------------------------------------
+2021-05-14 02:39:33 info: All unit tests passed.
+2021-05-14 02:39:36 error: *** Spell Checker Report ***
+
+
+2021-05-14 03:24:04 info: --------------------------------------------
+2021-05-14 03:24:04 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-05-14 03:24:04 info: --------------------------------------------
+2021-05-14 03:24:13 info: All unit tests passed.
+2021-05-14 03:24:17 error: *** Spell Checker Report ***
+
+
+2021-05-14 03:47:26 info: --------------------------------------------
+2021-05-14 03:47:26 info: >>> Running Unit Test `ex3-lemonAllergy` <<<
+2021-05-14 03:47:26 info: --------------------------------------------
+2021-05-14 03:47:34 error: *** Unit Test Error Report ***
+
+- sanitizeFruitBasket should list the sanitized fruit basket
+  Expected: My mom bought me a fruit basket containing apple, grapefruit, banana, watermelon!
+  Received: My mom bought me a fruit basket, containing
+  apple, grapefruit, banana and watermelon!
+
+2021-05-14 03:47:37 error: *** Spell Checker Report ***
+
+
+2021-05-14 03:48:13 info: --------------------------------------------
+2021-05-14 03:48:13 info: >>> Running Unit Test `ex3-lemonAllergy` <<<
+2021-05-14 03:48:13 info: --------------------------------------------
+2021-05-14 03:48:21 error: *** Unit Test Error Report ***
+
+- sanitizeFruitBasket should list the sanitized fruit basket
+  Expected: My mom bought me a fruit basket containing apple, grapefruit, banana, watermelon!
+  Received: My mom bought me a fruit basket, containing
+  apple, grapefruit, banana, watermelon!
+
+2021-05-14 03:48:25 error: *** Spell Checker Report ***
+
+
+2021-05-14 03:49:46 info: --------------------------------------------
+2021-05-14 03:49:46 info: >>> Running Unit Test `ex3-lemonAllergy` <<<
+2021-05-14 03:49:46 info: --------------------------------------------
+2021-05-14 03:49:54 info: All unit tests passed.
+2021-05-14 03:49:58 error: *** Spell Checker Report ***
+
+
+2021-05-15 11:02:07 info: ------------------------------------------------
+2021-05-15 11:02:07 info: >>> Running Unit Test `ex4-publishSubscribe` <<<
+2021-05-15 11:02:07 info: ------------------------------------------------
+2021-05-15 11:02:17 info: All unit tests passed.
+2021-05-15 11:02:20 error: *** Spell Checker Report ***
+
+

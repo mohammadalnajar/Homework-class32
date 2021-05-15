@@ -1,4 +1,7 @@
 'use strict';
+
+const { indexOf } = require('lodash');
+
 /*
 Your mom bought you a basket of fruit, because you're doing so well in
 HackYourFuture. How sweet of her!
@@ -23,8 +26,12 @@ const fruitBasket = [
   'lemon',
 ];
 
-function sanitizeFruitBasket(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+function sanitizeFruitBasket(arr, str) {
+  const sanitizedFruitBasket = arr.filter((item) => item !== str).join(', ');
+  // .reduce((acc, curr, i, array) =>
+  //   i === array.length - 1 ? `${acc} and ${curr}` : `${acc}, ${curr}`
+  // );
+  return `My mom bought me a fruit basket containing ${sanitizedFruitBasket}!`;
 }
 
 console.log(sanitizeFruitBasket(fruitBasket, 'lemon'));
