@@ -71,3 +71,24 @@
 2021-05-15 11:02:20 error: *** Spell Checker Report ***
 
 
+2021-05-16 09:08:12 info: --------------------------------------
+2021-05-16 09:08:12 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-05-16 09:08:12 info: --------------------------------------
+2021-05-16 09:08:22 error: *** Unit Test Error Report ***
+
+- wallet q1: At line 26, which variables are in the scope marked Closure?
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-05-16 09:08:26 error: *** Spell Checker Report ***
+
+
+2021-05-16 09:09:54 info: --------------------------------------
+2021-05-16 09:09:54 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-05-16 09:09:54 info: --------------------------------------
+2021-05-16 09:10:02 info: All unit tests passed.
+2021-05-16 09:10:06 error: *** Spell Checker Report ***
+
+
