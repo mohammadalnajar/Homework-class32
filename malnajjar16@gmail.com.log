@@ -236,3 +236,16 @@
 2021-05-09 11:35:48 error: *** Spell Checker Report ***
 
 
+2021-05-17 12:53:40 info: -------------------------------------------
+2021-05-17 12:53:40 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-17 12:53:40 info: -------------------------------------------
+2021-05-17 12:53:52 error: *** Unit Test Error Report ***
+
+- tellFortune should call function `selectRandomly` for each of its arguments
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a Architect in Amsterdam, married to Soha with 1 kids.
+  Received: You will be a Architect in Amsterdam, married to Soha with 1 kid.
+
+2021-05-17 12:53:56 error: *** Spell Checker Report ***
+
+

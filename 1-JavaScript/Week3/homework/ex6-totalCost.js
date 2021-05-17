@@ -20,7 +20,6 @@ instead!
    Use `console.log` to display the result.
 -----------------------------------------------------------------------------*/
 const cartForParty = {
-  // TODO complete this object
   chips: 3.99,
   drinks: 4.29,
   nuts: 3.12,
@@ -29,16 +28,12 @@ const cartForParty = {
 };
 
 function calculateTotalPrice(obj) {
-  let total = Object.entries(obj).map((item) => {
-    return item[1];
-  });
-  total = total.reduce((acc, curr) => {
+  let total = Object.values(obj).reduce((acc, curr) => {
     return acc + curr;
   });
   return `Total: €${total.toFixed(2)}`;
 }
 console.log(calculateTotalPrice(cartForParty));
-
 // ! Do not change or remove the code below
 module.exports = {
   cartForParty,

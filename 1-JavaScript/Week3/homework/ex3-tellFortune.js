@@ -25,35 +25,13 @@ Note: The DRY is put into practice here: instead of repeating the code to
 randomly select array elements four times inside the `tellFortune` function 
 body, this code is now written once only in a separated function.
 -----------------------------------------------------------------------------*/
-const numKids = [
-  // TODO add elements here
-  'Sami',
-  'Tarek',
-  'Ahmad',
-  'Khaled',
-  'Mosa',
-];
+const numKids = [1, 2, 3, 4, 5];
 
-const partnerNames = [
-  // TODO add elements here
-  'Soha',
-  'Lina',
-  'Nour',
-  'Yasmin',
-  'Rasha',
-];
+const partnerNames = ['Soha', 'Lina', 'Nour', 'Yasmin', 'Rasha'];
 
-const locations = [
-  // TODO add elements here
-  'Amsterdam',
-  'Utrecht',
-  'Eindhoven',
-  'Rotterdam',
-  'Almera',
-];
+const locations = ['Amsterdam', 'Utrecht', 'Eindhoven', 'Rotterdam', 'Almera'];
 
 const jobTitles = [
-  // TODO add elements here
   'Architect',
   'Translator',
   'Computer Engineer',
@@ -64,23 +42,17 @@ const jobTitles = [
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.
 function selectRandomly(arr) {
-  // TODO complete this function
-  const x = Math.floor(Math.random() * 5);
-  return arr[x];
+  const randomNum = Math.floor(Math.random() * arr.length);
+  return arr[randomNum];
 }
-
 function tellFortune(kids, partnerName, location, job) {
-  const x = Math.floor(Math.random() * 5);
   let arr = [kids, partnerName, location, job];
-  kids = kids.length - x;
-  //* I made this to pick a random number of kids and it give me an error with the test, but if I make it picking a random NAME instead of a number this error will be gone!*/
-  const kidsUnit = kids === 1 ? 'kid' : 'kids';
   arr = arr.map((argument) => {
     argument = selectRandomly(argument);
     return argument;
   });
-
-  return `You will be a ${arr[3]} in ${arr[2]}, married to ${arr[1]} with ${kids} ${kidsUnit}.`;
+  const kidsUnit = arr[0] === 1 ? 'kid' : 'kids';
+  return `You will be a ${arr[3]} in ${arr[2]}, married to ${arr[1]} with ${arr[0]} ${kidsUnit}.`;
 }
 //   I still get an error with test that tellFortune should call function
 //   'selectRandomly' for each of its arguments, although I made a loop above

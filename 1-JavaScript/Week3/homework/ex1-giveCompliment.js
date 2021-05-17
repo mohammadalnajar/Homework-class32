@@ -18,8 +18,6 @@
    `giveCompliment` function to the console.
 -----------------------------------------------------------------------------*/
 function giveCompliment(name) {
-  // TODO complete this function
-  const x = Math.floor(Math.random() * 10);
   const compliments = [
     'incredible',
     'unbelievable',
@@ -32,10 +30,10 @@ function giveCompliment(name) {
     'fascinating',
     'attractive',
   ];
-  return `You are ${compliments[x]}, ${name}!`;
+  const randomNum = Math.floor(Math.random() * compliments.length);
+  return `You are ${compliments[randomNum]}, ${name}!`;
 }
 
-// TODO substitute your own name for "HackYourFuture"
 const myName = 'Mohammad Al Najar';
 
 console.log(giveCompliment(myName));

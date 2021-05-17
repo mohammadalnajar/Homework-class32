@@ -2,7 +2,8 @@
 
 - tellFortune should call function `selectRandomly` for each of its arguments
 - tellFortune should tell the fortune by randomly selecting array values
-  fortune-telling is not randomly composed
+  Expected: You will be a Architect in Amsterdam, married to Soha with 1 kids.
+  Received: You will be a Architect in Amsterdam, married to Soha with 1 kid.
 
 *** Spell Checker Report ***
 
