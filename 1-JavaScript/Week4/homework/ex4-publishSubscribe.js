@@ -40,9 +40,8 @@ Good luck with completing `createPublisher`!
 function createPublisher() {
   const subscribers = [];
   return {
-    subscribe(console) {
-      console('Mohammad');
-      subscribers.push(console);
+    subscribe(subscriber) {
+      subscribers.push(subscriber);
     },
     subscribers,
     notify(message) {
