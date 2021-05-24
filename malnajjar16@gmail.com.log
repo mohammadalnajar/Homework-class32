@@ -36,3 +36,80 @@
 2021-05-24 12:01:04 error: *** Spell Checker Report ***
 
 
+2021-05-24 10:04:15 info: ------------------------------------------
+2021-05-24 10:04:15 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-24 10:04:15 info: ------------------------------------------
+2021-05-24 10:04:26 error: *** Unit Test Error Report ***
+
+- Game Of Life: a living cell with three living neighbors should survive and have its life time incremented by one
+- Game Of Life: a dead cell with two living neighbors should remain dead and have a life time of zero
+
+2021-05-24 10:04:30 error: *** Spell Checker Report ***
+
+
+2021-05-24 10:09:41 info: ------------------------------------------
+2021-05-24 10:09:41 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-24 10:09:41 info: ------------------------------------------
+2021-05-24 10:09:49 error: *** Unit Test Error Report ***
+
+- Game Of Life: a living cell with two living neighbors should survive and have its life time incremented by one
+- Game Of Life: a dead cell with two living neighbors should remain dead and have a life time of zero
+
+2021-05-24 10:09:53 error: *** Spell Checker Report ***
+
+
+2021-05-24 10:30:29 info: ------------------------------------------
+2021-05-24 10:30:29 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-24 10:30:29 info: ------------------------------------------
+2021-05-24 10:30:37 error: *** Unit Test Error Report ***
+
+- Game Of Life: a living cell with three living neighbors should survive and have its life time incremented by one
+- Game Of Life: a dead cell with two living neighbors should remain dead and have a life time of zero
+
+2021-05-24 10:30:41 error: *** Spell Checker Report ***
+
+
+2021-05-24 10:43:14 info: ------------------------------------------
+2021-05-24 10:43:14 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-24 10:43:14 info: ------------------------------------------
+2021-05-24 10:43:22 error: *** Unit Test Error Report ***
+
+- Game Of Life: a living cell with zero living neighbors should die and have its life time reset to zero
+- Game Of Life: a living cell with one living neighbor should die and have its life time reset to zero
+- Game Of Life: a living cell with four living neighbors should die and have its life time reset to zero
+- Game Of Life: a dead cell with zero living neighbors should remain dead and have a life time of zero
+- Game Of Life: a dead cell with one living neighbor should remain dead and have a life time of zero
+- Game Of Life: a dead cell with two living neighbors should remain dead and have a life time of zero
+- Game Of Life: a dead cell with four living neighbors should remain dead and have a life time of zero
+
+2021-05-24 10:43:25 error: *** Spell Checker Report ***
+
+
+2021-05-24 10:46:48 info: ------------------------------------------
+2021-05-24 10:46:48 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-24 10:46:48 info: ------------------------------------------
+2021-05-24 10:46:57 error: *** Unit Test Error Report ***
+
+- Game Of Life: a living cell with three living neighbors should survive and have its life time incremented by one
+- Game Of Life: a dead cell with two living neighbors should remain dead and have a life time of zero
+
+2021-05-24 10:47:04 error: *** Spell Checker Report ***
+
+
+2021-05-24 11:05:38 info: ------------------------------------------
+2021-05-24 11:05:38 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-24 11:05:38 info: ------------------------------------------
+2021-05-24 11:05:48 error: *** Unit Test Error Report ***
+
+- Game Of Life: a dead cell with three living neighbors should come alive and have its lifeTime reset to one
+
+2021-05-24 11:05:52 error: *** Spell Checker Report ***
+
+
+2021-05-24 11:08:54 info: ------------------------------------------
+2021-05-24 11:08:54 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-24 11:08:54 info: ------------------------------------------
+2021-05-24 11:09:02 info: All unit tests passed.
+2021-05-24 11:09:07 error: *** Spell Checker Report ***
+
+
