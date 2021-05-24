@@ -8,4 +8,22 @@
    `list-item`.
 ------------------------------------------------------------------------------*/
 
-// TODO add your JavaScript code here.
+const body = document.body;
+body.style.fontFamily = 'Arial, sans-serif';
+
+const li = document.querySelectorAll('ul li');
+
+li.forEach((item, idx) => {
+  item.classList.add('list-item');
+  switch (idx) {
+    case 0:
+      item.firstElementChild.textContent = 'Mohammad';
+      break;
+    case 1:
+      item.firstElementChild.textContent = 'Pizza';
+      break;
+    case 2:
+      item.firstElementChild.textContent = 'Syria';
+      break;
+  }
+});

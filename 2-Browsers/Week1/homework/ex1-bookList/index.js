@@ -24,23 +24,47 @@ const myBooks = [
     author: 'Don Norman',
     isbn: '978-0465050659',
     alreadyRead: false,
+    imgSrc: './assets/the_design_of_everyday_things.jpg',
   },
   {
     title: 'The Most Human Human',
     author: 'Brian Christian',
     isbn: '978-1617933431',
     alreadyRead: true,
+    imgSrc: './assets/the_most_human_human.jpg',
   },
   {
     title: 'The Pragmatic Programmer',
     author: 'Andrew Hunt',
     isbn: '978-0201616224',
     alreadyRead: true,
+    imgSrc: './assets/the_pragmatic_programmer.jpg',
   },
 ];
 
 function createBookList(books) {
-  // your code goes in here, return the ul element
+  const ul = document.createElement('ul');
+  ul.classList.add('books-list');
+  books.forEach((book) => {
+    const li = document.createElement('li');
+    const p = document.createElement('p');
+    const img = document.createElement('img');
+    ul.appendChild(li);
+    li.appendChild(p);
+    li.appendChild(img);
+    li.classList.add('list-item');
+    p.textContent = `${book.title} - ${book.author}`;
+    img.src = book.imgSrc;
+    img.setAttribute('alt', book.title);
+    img.width = '140';
+    img.style.margin = '10px';
+    if (book.alreadyRead) {
+      li.style.backgroundColor = 'green';
+    } else {
+      li.style.backgroundColor = 'red';
+    }
+  });
+  return ul;
 }
 
 const ulElement = createBookList(myBooks);

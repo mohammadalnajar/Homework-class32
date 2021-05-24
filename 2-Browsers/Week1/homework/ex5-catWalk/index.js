@@ -19,8 +19,32 @@
 
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
-function catWalk() {
-  // TODO complete this function
+const img = document.querySelector('img');
+img.style.left = '0px';
+let counter = 0;
+let interval;
+function intervalFunc() {
+  img.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
+  interval = setInterval(catWalk, 50);
 }
 
-// TODO execute `catWalk` when the browser has completed loading the page
+function catWalk() {
+  if (counter <= window.innerWidth - 300) {
+    counter += 10;
+  } else {
+    counter = 0;
+  }
+  img.style.left = `${counter}px`;
+
+  if (
+    window.innerWidth / 2 - 190 < counter &&
+    counter < window.innerWidth / 2 - 170
+  ) {
+    counter += 20;
+    img.src = './src/tenor.gif';
+    clearInterval(interval);
+    setTimeout(intervalFunc, 3000);
+  }
+}
+
+window.addEventListener('load', intervalFunc);

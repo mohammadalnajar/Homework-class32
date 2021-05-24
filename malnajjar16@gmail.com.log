@@ -1,0 +1,38 @@
+2021-05-23 11:05:24 info: ----------------------------------------
+2021-05-23 11:05:24 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-05-23 11:05:24 info: ----------------------------------------
+2021-05-23 11:05:40 error: *** Unit Test Error Report ***
+
+- Generated HTML HTML should be syntactically valid
+  inline
+    10:113  error  <img> is missing required "alt" attribute  wcag/h37
+    10:254  error  <img> is missing required "alt" attribute  wcag/h37
+    10:386  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 3 problems (3 errors, 0 warnings)
+  
+
+2021-05-23 11:05:44 error: *** Spell Checker Report ***
+
+
+2021-05-23 11:07:22 info: ----------------------------------------
+2021-05-23 11:07:22 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-05-23 11:07:22 info: ----------------------------------------
+2021-05-23 11:07:34 info: All unit tests passed.
+2021-05-23 11:07:37 error: *** Spell Checker Report ***
+
+
+2021-05-23 11:46:19 info: ---------------------------------------
+2021-05-23 11:46:19 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-05-23 11:46:19 info: ---------------------------------------
+2021-05-23 11:46:31 info: All unit tests passed.
+2021-05-23 11:46:35 error: *** Spell Checker Report ***
+
+
+2021-05-24 12:00:42 info: ---------------------------------------
+2021-05-24 12:00:42 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-05-24 12:00:42 info: ---------------------------------------
+2021-05-24 12:00:59 info: All unit tests passed.
+2021-05-24 12:01:04 error: *** Spell Checker Report ***
+
+
