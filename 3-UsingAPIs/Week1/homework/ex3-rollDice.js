@@ -1,7 +1,5 @@
 'use strict';
 
-const { reject } = require('lodash');
-
 /*------------------------------------------------------------------------------
 - Run the unmodified program and confirm that problem described occurs.
 - Refactor the `rollBack()` function from callback-based to returning a
