@@ -12,3 +12,41 @@
 2021-06-20 05:31:14 error: *** Spell Checker Report ***
 
 
+2021-06-21 01:29:18 info: ------------------------------------------
+2021-06-21 01:29:18 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-06-21 01:29:18 info: ------------------------------------------
+2021-06-21 01:29:36 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    11:2  error  <button> is missing required "type" attribute  element-required-attributes
+    11:2  error  <button> must have accessible text             text-content
+  
+  ✖ 2 problems (2 errors, 0 warnings)
+  
+
+2021-06-21 01:29:41 error: *** Spell Checker Report ***
+
+
+2021-06-21 01:31:52 info: ------------------------------------------
+2021-06-21 01:31:52 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-06-21 01:31:52 info: ------------------------------------------
+2021-06-21 01:32:12 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    11:2  error  <button> is missing required "type" attribute  element-required-attributes
+  
+  ✖ 1 problem (1 error, 0 warnings)
+  
+
+2021-06-21 01:32:21 error: *** Spell Checker Report ***
+
+
+2021-06-21 01:39:26 info: ------------------------------------------
+2021-06-21 01:39:26 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-06-21 01:39:26 info: ------------------------------------------
+2021-06-21 01:39:41 info: All unit tests passed.
+2021-06-21 01:39:45 error: *** Spell Checker Report ***
+
+
