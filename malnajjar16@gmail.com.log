@@ -57,3 +57,10 @@
 2021-06-21 02:00:48 error: *** Spell Checker Report ***
 
 
+2021-06-21 02:06:18 info: ----------------------------------------
+2021-06-21 02:06:18 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-06-21 02:06:18 info: ----------------------------------------
+2021-06-21 02:06:28 info: All unit tests passed.
+2021-06-21 02:06:33 error: *** Spell Checker Report ***
+
+
