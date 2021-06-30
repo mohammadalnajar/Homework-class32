@@ -11,13 +11,14 @@
 const rollDice = require('../../helpers/pokerDiceRoller');
 
 async function rollDiceUntil(wantedValue) {
-  const value = await rollDice();
+  let value = await rollDice();
+  // we used here let instead of const to update `value` each time we call
+  // rollDice();
   while (value !== wantedValue) {
-    return rollDiceUntil(wantedValue);
+    value = await rollDice();
   }
   return value;
 }
-
 async function main() {
   try {
     const results = await rollDiceUntil('ACE');

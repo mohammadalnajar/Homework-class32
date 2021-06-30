@@ -71,3 +71,10 @@
 2021-06-21 03:40:30 error: *** Spell Checker Report ***
 
 
+2021-06-29 11:26:54 info: ---------------------------------------------
+2021-06-29 11:26:54 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-06-29 11:26:54 info: ---------------------------------------------
+2021-06-29 11:27:13 info: All unit tests passed.
+2021-06-29 11:27:17 error: *** Spell Checker Report ***
+
+

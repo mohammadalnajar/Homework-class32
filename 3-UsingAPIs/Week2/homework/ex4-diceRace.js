@@ -28,5 +28,11 @@ async function main() {
 
 main();
 
+/* 
+my answer: because `Promise.race()` returns the first settled promise of all
+promises in the array then the status will be either resolve or rejected. and
+all dices will keep rolling until the settled on ACE or finished the scheduled rolls. 
+*/
+
 // ! Do not change or remove the code below
 module.exports = rollTheDices;
